@@ -19,7 +19,7 @@ Air pollution, especially PM2.5, is a critical global issue affecting millions o
 
 ## Getting Started  
 
-### 📋 Prerequisites  
+### Prerequisites  
 - Python 3.8+  
 - Jupyter Notebook  
 - Kaggle account (joined the competition)  
