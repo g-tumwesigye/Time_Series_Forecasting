@@ -1,3 +1,8 @@
+Here is a polished **README.md** file that will make your GitHub repository look professional and well-organized:
+
+---
+
+````markdown
 # 🌐 Time_Series_Forecasting (Air Quality Forecasting)  
 
 Predicting PM2.5 Levels Using RNN and LSTM Models for Time Series Forecasting  
@@ -30,3 +35,88 @@ Time_Series_Forecasting/
 ├── results/                        
 ├── .gitignore                     
 └── README.md                     
+````
+
+---
+
+## 🚀 Getting Started
+
+### 📋 Prerequisites
+
+* Python 3.8+
+* Jupyter Notebook
+* Kaggle account (joined the competition)
+
+### 📦 Installation
+
+Clone this repository and navigate to the project directory:
+
+```bash
+git clone https://github.com/g-tumwesigye/Time_Series_Forecasting.git
+cd Time_Series_Forecasting
+```
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 📊 Data Files
+
+* **train.csv:** Contains historical air quality data (features and target variable).
+* **test.csv:** Contains air quality data without target values (used for predictions).
+* **sample\_submission.csv:** Shows the required format for submitting predictions on Kaggle.
+
+---
+
+## 📔 Notebook
+
+The main Jupyter notebook for this project is:
+
+* **air\_quality\_forecasting\_starter\_code.ipynb** – Modify this notebook to include your data exploration, preprocessing, model design, training, and predictions.
+
+---
+
+## 🏋️‍♂️ Model Training
+
+1. **Preprocess the Data:** Handle missing values, create sequences, and scale features.
+2. **Design the Model:** Create RNN and LSTM models with optimized architectures.
+3. **Train the Model:** Train and fine-tune the models to reduce RMSE.
+4. **Generate Predictions:** Create predictions for the test set and submit to Kaggle.
+
+---
+
+## 📊 Results and Evaluation
+
+* Record the performance of each model.
+* Include at least 15 experiments with varied parameters (e.g., learning rate, batch size, layers).
+
+---
+
+## 🤝 Contributions
+
+Feel free to open issues or submit pull requests if you have ideas for improvement.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 📬 Contact
+
+For any questions or collaborations, reach me at [g.tumwesigy@alustudent.com](mailto:g.tumwesigy@alustudent.com).
+
+---
+
+```
+
+---
+
+Would you like me to help you set up the **requirements.txt** file next? 🙂
+```
