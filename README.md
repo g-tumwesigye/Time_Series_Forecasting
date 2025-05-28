@@ -51,18 +51,38 @@ The approach included:
 
 ---
 
-## Experiment Table & Results
-
-| Experiment | Layers | Units | Learning Rate | Batch Size | RMSE   |
-|------------|--------|-------|---------------|------------|--------|
-| 1          | 1      | 50    | 0.001         | 64         | 6860.82|
-| 2          | 2      | 50    | 0.001         | 64         | 6390.08|
-| 3          | 3      | 100   | 0.0005        | 32         | 6461.01|
-| ...        | ...    | ...   | ...           | ...        | ...    |
+Experiments.
 
 - Conducted 15+ experiments varying number of layers, units, batch size, and learning rates.
 - Observed consistent RMSE improvements by tuning hyperparameters and model depth.
 - Best RMSE achieved: **6390.08**
+
+```markdown
+| Experiment | Layers | Units per Layer | Learning Rate | Batch Size | RMSE       |
+|------------|--------|-----------------|---------------|------------|------------|
+| 1          | 1      | 50              | 0.001         | 64         | 6860.8204  |
+| 2          | 2      | 50              | 0.001         | 64         | 6860.8204  |
+| 3          | 2      | 100             | 0.001         | 64         | 6924.8794  |
+| 4          | 2      | 50              | 0.0005        | 32         | 6461.0059  |
+| 5          | 2      | 50              | 0.0005        | 64         | 6390.0883  |
+| 6          | 3      | 50              | 0.001         | 64         | 6419.8672  |
+| 7          | 3      | 100             | 0.0001        | 32         | 18399.0869 |
+| 8          | 1      | 100             | 0.001         | 64         | 6532.8966  |
+| 9          | 2      | 75              | 0.0007        | 64         | 9496.9161  |
+| 10         | 3      | 50              | 0.001         | 128        | 17438.7776 |
+| 11         | 3      | 100             | 0.0005        | 32         | 19568.3990 |
+| 12         | 2      | 50              | 0.001         | 64         | 6562.5655  |
+| 13         | 1      | 50              | 0.0001        | 32         | 11472.5329 |
+| 14         | 2      | 100             | 0.0007        | 64         | 9545.3627  |
+```
+
+### Explanation:
+
+* **Layers**: Number of stacked LSTM layers
+* **Units per Layer**: Number of LSTM units in each layer
+* **Learning Rate**: Optimizer learning rate used
+* **Batch Size**: Training batch size
+* **RMSE**: Root Mean Squared Error achieved on validation/test set
 
 ---
 
