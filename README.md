@@ -53,7 +53,7 @@ The approach included:
 
 Experiments.
 
-- Conducted 15+ experiments varying number of layers, units, batch size, and learning rates.
+- Conducted a number of experiments with varying number of layers, units, batch size and learning rates.
 - Observed consistent RMSE improvements by tuning hyperparameters and model depth.
 - Best RMSE achieved: **6390.08**
 
@@ -119,7 +119,9 @@ Future work could explore incorporating additional meteorological features, test
 1. Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. Neural computation, 9(8), 1735-1780.  
 2. Brownlee, J. (2017). Deep Learning for Time Series Forecasting. Machine Learning Mastery.  
 3. Kaggle Air Quality Forecasting Competition: [https://www.kaggle.com/c/air-quality-forecasting](https://www.kaggle.com/c/air-quality-forecasting)  
-4. Géron, A. (2019). Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow. O'Reilly Media.  
+4. Géron, A. (2019). Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow. O'Reilly Media.
+5. [1] A. Abhishek, "Understanding GRUs, LSTM, & RNNs," *Medium*, 2020. [Online]. Available: https://medium.com/@abhishek/understanding-grus-lstm-rnns-1e7a8d0b2130. [Accessed: 28-May-2025].
+
 
 ---
 
