@@ -110,7 +110,7 @@ This project successfully developed an LSTM-based time series forecasting model 
 - Careful model tuning achieving RMSE ~6390.  
   
 
-Future work could explore incorporating additional meteorological features, testing alternative architectures like GRUs or integrating attention mechanisms to further improve accuracy.
+In future i want to explore by incorporating additional meteorological features, testing alternative architectures like GRUs or integrating attention mechanisms to further improve accuracy.
 
 ---
 
